@@ -1,9 +1,15 @@
-tr {
-  &:hover {
-    background-color: var(--grey);
-  }
 
   td {
     padding: 1rem;
   }
-}
+  .tdButtons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: right;
+
+    button {
+      background-color: transparent;
+      border: 0;
+    }
+  }
+

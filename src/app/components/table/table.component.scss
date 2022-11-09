@@ -12,4 +12,12 @@ table {
       font-weight: 400;
     }
   }
+
+  tbody {
+    tr {
+      &:hover {
+        background-color: var(--grey);
+      }
+    }
+  }
 }
