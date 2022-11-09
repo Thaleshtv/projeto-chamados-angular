@@ -1,0 +1,77 @@
+.card {
+  margin-top: 70px;
+  min-height: 30rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.31);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.31);
+
+  .card-header {
+    border-bottom: 1px solid var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1rem;
+
+    h2 {
+      color: var(--primary-color);
+    }
+
+    button {
+      border: 0;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      background-color: var(--primary-color);
+      color: var(--white);
+      font-weight: 700;
+
+      &:hover {
+        -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.31);
+        box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.31);
+      }
+    }
+  }
+
+  .card-content {
+    padding: 1rem;
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: left;
+
+      thead {
+        th {
+          padding: 1rem;
+          vertical-align: bottom;
+          border-bottom: 1px solid var(--primary-color);
+          color: var(--primary-color);
+          font-weight: 400;
+        }
+      }
+
+      tbody {
+        tr {
+          &:hover {
+            background-color: var(--grey);
+          }
+
+          td {
+            padding: 1rem;
+          }
+
+          .tdButtons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: right;
+
+            button {
+              background-color: transparent;
+              border: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

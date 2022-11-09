@@ -1,0 +1,20 @@
+.header {
+  background-color: var(--primary-color);
+
+  header {
+    display: flex;
+    padding: 1.75rem 0;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      color: var(--white);
+      font-weight: 200;
+      font-size: 1.25rem;
+    }
+
+    img {
+      max-width: 130px;
+    }
+  }
+}
